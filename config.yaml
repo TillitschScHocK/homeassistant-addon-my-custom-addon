@@ -1,0 +1,9 @@
+name: My Custom Add-on
+version: "1.0"
+slug: my_custom_addon
+description: This is my custom Home Assistant add-on.
+startup: application
+boot: auto
+resources:
+  - /data/my_custom_file.txt
+icon: mdi:home-assistant
